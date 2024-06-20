@@ -3,8 +3,6 @@ import styles from './HeroStyles.module.css';
 import heroImg from '../../assets/Design uten navn.png';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
-import twitterLight from '../../assets/twitter-light.svg';
-import twitterDark from '../../assets/twitter-dark.svg';
 import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
@@ -26,7 +24,7 @@ function Hero() {
         <img
           src={heroImg}
           className={styles.hero}
-          alt="Profile picture of Harris Johnsen"
+          alt="Profile picture of Omar Sheikh"
         />
         <img
           className={styles.colorMode}
@@ -37,15 +35,12 @@ function Hero() {
       </div>
       <div className={styles.info}>
         <h1>
-          Harris
+          Omar
           <br />
-          Johnsen
+          Sheikh
         </h1>
-        <h2>Frontend Developer</h2>
+        <h2>Software Engineer</h2>
         <span>
-          <a href="https://twitter.com/" target="_blank">
-            <img src={twitterIcon} alt="Twitter icon" />
-          </a>
           <a href="https://github.com/" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
@@ -54,8 +49,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern React web apps for commercial
-          businesses.
+          With a passion for developing iOS and React web apps!
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
