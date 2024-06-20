@@ -1,8 +1,8 @@
 import styles from './ProjectsStyles.module.css';
-import futurefund from 'src/assets/futurefund.png';
-import moodle from 'src/assets/moodle.png';
-import chatbot from 'src/assets/chatbot.png';
-import maxlift from 'src/assets/maxlift.png';
+import futurefund from '../../assets/futurefund.png'
+import moodle from '../../assets/moodle.png'
+import chatbot from '../../assets/chatbot.png'
+import maxlift from '../../assets/maxlift.png'
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
